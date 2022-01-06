@@ -40,7 +40,7 @@ namespace AddressBook.Models
         [DataType(DataType.Upload)]
         public IFormFile ImageFile { get; set; }
         public byte[] ImageData { get; set; }
-        public string Imagetype { get; set; }
+        public string ImageType { get; set; }
 
         // Acts as primary key for the db
         public int Id { get; set; }

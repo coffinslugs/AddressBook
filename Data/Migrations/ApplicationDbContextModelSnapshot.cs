@@ -49,7 +49,7 @@ namespace AddressBook.Data.Migrations
                     b.Property<byte[]>("ImageData")
                         .HasColumnType("bytea");
 
-                    b.Property<string>("Imagetype")
+                    b.Property<string>("ImageType")
                         .HasColumnType("text");
 
                     b.Property<string>("LastName")

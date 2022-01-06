@@ -25,7 +25,7 @@ namespace AddressBook.Data.Migrations
                     Phone = table.Column<string>(type: "text", nullable: true),
                     Created = table.Column<DateTime>(type: "timestamp without time zone", nullable: false),
                     ImageData = table.Column<byte[]>(type: "bytea", nullable: true),
-                    Imagetype = table.Column<string>(type: "text", nullable: true)
+                    ImageType = table.Column<string>(type: "text", nullable: true)
                 },
                 constraints: table =>
                 {
