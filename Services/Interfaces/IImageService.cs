@@ -5,8 +5,7 @@ namespace AddressBook.Services.Interfaces
 {
     public interface IImageService
     {
-        public Task<byte[]> ConvertFileToByteArrayAsync(IFormFile file);
-        public string ConvertByteArrayToFile(byte[] filedata, string extension);
-
+        Task<byte[]> ConvertFileToByteArrayAsync(IFormFile file);
+        string ConvertByteArrayToFile(byte[] fileData, string extension);
     }
 }
